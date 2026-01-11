@@ -7,7 +7,11 @@ import org.springframework.web.bind.annotation.RestController;
 public class Test2 {
 	@GetMapping("/hello")
 	public String hello() {
-		return "Hello from Test2!";
+		return "Hello from Test2! and made chanhes in branch Rohit";
 	}
-    
+    //Adding one more end point for Test2 class
+	@GetMapping("/greet")
+	public String greet() {
+		return "Greetings from Test2!";
+	}
 }
