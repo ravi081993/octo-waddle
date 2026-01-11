@@ -9,5 +9,9 @@ public class Test2 {
 	public String hello() {
 		return "Hello from Test2!";
 	}
+	@GetMapping("/greeting")
+	public String greeting() {
+		return "Greetings from Test2!";
+	}
     
 }
